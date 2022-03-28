@@ -1,0 +1,80 @@
+body
+{
+	background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/391540/6d3c1390ab7cdeb9b35f8fbdcacb712e35796fc1.jpg");
+}
+
+	.login_div1 
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 40%;
+		height: 150px;
+		background-image: url("https://wallpapercave.com/uwp/uwp1313452.jpeg")
+	}
+	
+	.login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		width: 40%;
+		height: 150px;
+		background-image: url("https://wallpapercave.com/wp/wp3408797.jpg");
+	}
+#player1_name , #player2_name
+{
+	display: inline-block;
+
+	font-weight: bold;
+
+}
+h3{
+	font-family: serif;
+	color:rgb(17, 17, 17);
+}
+label{
+	font-style: italic;
+	color: turquoise;
+}
+button{
+	font-family:sans-serif;
+	font-size: medium;
+	height:35px;
+	width: 250px;;
+	background-color: aquamarine;
+	font-style: italic;
+	
+}
+#d1:hover{
+	border: 5px solid rgb(102, 6, 73);
+}
+
+#d2:hover{
+	border: 5px solid rgb(102, 6, 73);
+}
+
+
+
+#sendbtn{
+	width: 20%;
+	 background-color: aquamarine; 
+	 color: black; 
+	 font-weight: bold; 
+	 border-radius: 5px;
+	 font-style: italic;
+}
+
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid blue;
+padding: 10px;
+float: none;
+text-align: left;
+}
+

@@ -1,0 +1,41 @@
+<html>
+    <head>
+	<title>Guess The Word</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+</head>
+<body>
+    
+	<h4 id="player1_name"></h4> <span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name" ></h4> <span id="player2_score"></span>
+<div class="container">
+    <center>
+		
+		
+    <a href="https://fontmeme.com/undertale-logo-font/"><img src="https://fontmeme.com/permalink/220318/3ec8172fbba44c036c4e82a83f36b213.png" alt="undertale-logo-font" border="0"></a>
+		<h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"></div>
+		<br>
+        <br>
+		<h4 style="color:white;">Number 1</h4>
+		<br>
+		<input type="number" class="form-control" id="number_1" placeholder="Enter the first number" style="width: 70%;">
+		<br>
+		<h4 style="color:white;">Number 2</h4>
+		<input type="number" class="form-control" id="number_2" placeholder="Enter the second number" style="width: 70%;">
+		<br>
+		<button id="sendbtn" onclick="Send()">Send</button>
+	</center>
+</div>
+<script src="game_page.js"></script>
+
+</div>
+</body>
+</html>
